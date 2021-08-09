@@ -1,0 +1,13 @@
+
+    <td>{{car.id}}</td>
+    <td [hidden]="isEditing">{{car.brand}}</td>
+    <input type="text" [hidden]="!isEditing" [(ngModel)]="car.brand">
+    <td [hidden]="isEditing">{{car.model}}</td>
+    <input type="text" [hidden]="!isEditing" [(ngModel)]="car.model">
+    <td>{{car.date | date: 'shortDate'}}</td>
+    <button type="submit" (click)="enableEdit()" [hidden]="isEditing">Edit</button>
+    <button type="submit" [hidden]="!isEditing">Cancel</button>
+    <button type="submit" (click)="updateCar(car)" [hidden]="!isEditing">Update</button>
+
+    <!-- //TEST -->
+

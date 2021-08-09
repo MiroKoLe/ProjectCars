@@ -1,0 +1,11 @@
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\bin\Debug\netcoreapp3.1\Cars.Common.deps.json
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\bin\Debug\netcoreapp3.1\Cars.Common.runtimeconfig.json
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\bin\Debug\netcoreapp3.1\Cars.Common.runtimeconfig.dev.json
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\bin\Debug\netcoreapp3.1\Cars.Common.dll
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\bin\Debug\netcoreapp3.1\Cars.Common.pdb
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\obj\Debug\netcoreapp3.1\Cars.Common.AssemblyInfoInputs.cache
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\obj\Debug\netcoreapp3.1\Cars.Common.AssemblyInfo.cs
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\obj\Debug\netcoreapp3.1\Cars.Common.csproj.CoreCompileInputs.cache
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\obj\Debug\netcoreapp3.1\Cars.Common.dll
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\obj\Debug\netcoreapp3.1\Cars.Common.pdb
+C:\Users\miroslav.kolev\Desktop\PracticeProject\Backend\Cars.Common\obj\Debug\netcoreapp3.1\Cars.Common.genruntimeconfig.cache
