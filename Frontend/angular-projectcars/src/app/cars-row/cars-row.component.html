@@ -8,6 +8,7 @@
     <button type="submit" (click)="enableEdit()" [hidden]="isEditing">Edit</button>
     <button type="submit" [hidden]="!isEditing">Cancel</button>
     <button type="submit" (click)="updateCar(car)" [hidden]="!isEditing">Update</button>
+    <button type="submit" (click)="deleteCar(car.id)" [hidden]="!isEditing">Delete</button>
 
     <!-- //TEST -->
 
