@@ -1,3 +1,4 @@
+import { MaterialModule } from './material/material.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,7 +11,8 @@ import { AddComponent } from './add/add.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { DetailsComponent } from './details/details.component';
-import { CarsRowComponent } from './cars-row/cars-row.component'
+import { CarsRowComponent } from './cars-row/cars-row.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { CarsRowComponent } from './cars-row/cars-row.component'
     BrowserAnimationsModule,
     FormsModule,
     MatProgressBarModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MaterialModule
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
