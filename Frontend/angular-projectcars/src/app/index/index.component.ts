@@ -15,7 +15,6 @@ export class IndexComponent implements OnInit {
 
   constructor(private carService: CarsService) {}
 
-
   ngOnInit(): void {
     this.getCars();
   }
@@ -26,11 +25,9 @@ export class IndexComponent implements OnInit {
     });
   }
 
-
   getCar(id): void{
     this.carService.getById(id).subscribe((response: Car) => {
       this._car = response; 
     })
   }
-    
 }

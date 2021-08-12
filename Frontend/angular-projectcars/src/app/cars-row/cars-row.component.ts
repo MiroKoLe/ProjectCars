@@ -30,10 +30,15 @@ export class CarsRowComponent implements OnInit {
   this.carService.update(car).subscribe(() => {
   this._car = car; 
   })
+  this._isEditing = false; 
   }
 
   refresh(): void{
     window.location.reload();
+  }
+
+  cancel(): void {
+    this._isEditing = false; 
   }
 
   deleteCar(id): void{
