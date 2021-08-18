@@ -200,8 +200,9 @@ C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcorea
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\Cars.Manager.pdb
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\Cars.Store.pdb
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\staticwebassets\ProjectCars.StaticWebAssets.Manifest.cache
-C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\staticwebassets\ProjectCars.StaticWebAssets.xml
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\scopedcss\bundle\ProjectCars.styles.css
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.RazorTargetAssemblyInfo.cache
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.csproj.CopyComplete
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.genruntimeconfig.cache
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\ProjectCars.StaticWebAssets.xml
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.GeneratedMSBuildEditorConfig.editorconfig

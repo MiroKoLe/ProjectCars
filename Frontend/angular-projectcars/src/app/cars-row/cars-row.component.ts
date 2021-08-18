@@ -46,5 +46,4 @@ export class CarsRowComponent implements OnInit {
     this.refresh();
     })
   }
-
 }
