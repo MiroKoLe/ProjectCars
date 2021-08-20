@@ -33,6 +33,5 @@ section {
   justify-content: center;
   width: 120px;
 }
-.pointer{
-  cursor: pointer;
-}
+.cursor-pointer
+{cursor: pointer;}
