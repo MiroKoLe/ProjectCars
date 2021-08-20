@@ -5,10 +5,10 @@
     <td [hidden]="isEditing">{{car.model}}</td>
     <input type="textarea" *ngIf="isEditing" [(ngModel)]="car.model">
     <td>{{car.date | date: 'shortDate'}}</td>
-    <button type="submit" mat-raised-button color="primary" (click)="enableEdit()" *ngIf="!isEditing">Edit</button>
-    <button type="submit" mat-raised-button color="accent"*ngIf="isEditing" (click)="cancel()">Cancel</button>
-    <button type="submit" mat-raised-button color="primary"(click)="updateCar(car)" *ngIf="isEditing">Update</button>
-    <button type="submit" mat-raised-button color="warn" (click)="deleteCar(car.id)" *ngIf="isEditing">Delete</button>
+    <button type="submit"  mat-raised-button color="primary" (click)="enableEdit()" *ngIf="!isEditing">Edit</button>
+    <button type="submit" class="margin-left" mat-raised-button color="accent"*ngIf="isEditing" (click)="cancel()">Cancel</button>
+    <button type="submit" class="margin-left" mat-raised-button color="primary"(click)="updateCar(car)" *ngIf="isEditing">Update</button>
+    <button type="submit" class="margin-left" mat-raised-button color="warn" (click)="deleteCar(car.id)" *ngIf="isEditing">Delete</button>
 
     <!-- //TEST -->
 

@@ -33,5 +33,14 @@ section {
   justify-content: center;
   width: 120px;
 }
+
 .cursor-pointer
 {cursor: pointer;}
+
+.button-right{
+  position:absolute;
+  top: 10px;
+  right:0;
+}
+
+

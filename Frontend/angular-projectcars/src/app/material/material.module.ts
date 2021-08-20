@@ -6,6 +6,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 const MaterialComponents = [
   MatButtonModule, 
@@ -14,7 +15,8 @@ const MaterialComponents = [
   MatInputModule,
   MatCardModule,
   MatIconModule,
-  MatTooltipModule
+  MatTooltipModule,
+  MatProgressBarModule
 ]
 
 @NgModule({
