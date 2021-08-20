@@ -5,7 +5,7 @@
   </thead>
   <tbody>   
     <tr *ngFor="let car of cars; let i = index">
-      <mat-card class="cardColor" *ngIf="!isEditing 'blue' : 'red'">    
+      <mat-card class="expand-card" *ngIf="!isEditing 'blue' : 'red'">    
         <cars-row class="cardColor" [car]="car"></cars-row>
       </mat-card>
       <!-- //Napravljeno kako bi svaka komponenta unutar imala svoj editing -->

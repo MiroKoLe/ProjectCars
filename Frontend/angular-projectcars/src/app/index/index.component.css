@@ -8,3 +8,7 @@
 }
 .cursor-pointer
 {cursor: pointer;}
+
+.expand-card{
+width: 700px;
+}
