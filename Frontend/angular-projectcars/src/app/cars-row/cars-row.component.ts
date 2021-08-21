@@ -1,6 +1,7 @@
 import { CarsService } from './../cars.service';
 import { Component, Input, OnInit } from '@angular/core';
 import { Car } from '../car';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'cars-row',
@@ -16,7 +17,7 @@ export class CarsRowComponent implements OnInit {
     return this._isEditing;
   }
 
-  constructor(private carService: CarsService) { }
+  constructor(private carService: CarsService, private dialog: MatDialog) { }
 
   enableEdit(): void {
     this._isEditing = true; 
@@ -39,6 +40,10 @@ export class CarsRowComponent implements OnInit {
 
   cancel(): void {
     this._isEditing = false; 
+  }
+
+  onDelete(){
+    this.dialog.open(CarsRowComponent);
   }
 
   deleteCar(id): void{
