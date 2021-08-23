@@ -3,12 +3,18 @@
   margin-right: auto;
 }
 
-.cardColor{
-  color: rgb(0, 0, 0);
+.cardColor {
+  color: rgb(1, 4, 51);
 }
-.cursor-pointer
-{cursor: pointer;}
+.cursor-pointer {
+  cursor: pointer;
+}
 
-.expand-card{
-width: 900px;
+.expand-card {
+  width: 900px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }

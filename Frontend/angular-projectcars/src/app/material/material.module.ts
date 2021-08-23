@@ -8,6 +8,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
 
 
 const MaterialComponents = [
@@ -19,7 +21,8 @@ const MaterialComponents = [
   MatIconModule,
   MatTooltipModule,
   MatProgressBarModule,
-  MatDialogModule
+  MatDialogModule,
+  MatToolbarModule
 ]
 
 @NgModule({
