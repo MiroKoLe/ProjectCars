@@ -1,16 +1,18 @@
 <p>
   <mat-toolbar class="cardColor">
-    <span class="center">Project Cars Application</span>
-    <button class="cursor-pointer" mat-raised-button color="primary"  routerLink="/create">Add car</button>
+    <mat-icon>Github</mat-icon>
+        <span class="center">Project Cars Application</span>
+    <button class="cursor-pointer" mat-raised-button color="primary"  routerLink="/create">Add</button>
   </mat-toolbar>
 </p>
+<span class="center"> 
+  <div class="font font-size">There are {{ cars.length }} cars on the page</div>
+</span>
 <table class="center">
-  <thead>
-    <div>There are {{ cars.length }} cars on the page</div>
-  </thead>
+ 
   <tbody>   
     <tr *ngFor="let car of cars; let i = index">
-      <mat-card class="cardColor">    
+      <mat-card class="cardColor card-size">    
         <cars-row class="cardColor" [car]="car"></cars-row>
       </mat-card>
       <!-- //Napravljeno kako bi svaka komponenta unutar imala svoj editing -->
