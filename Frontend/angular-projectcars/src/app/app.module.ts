@@ -12,6 +12,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { DetailsComponent } from './details/details.component';
 import { CarsRowComponent } from './cars-row/cars-row.component';
+import { SvgIconsModule } from '@ngneat/svg-icon';
 
 
 @NgModule({
@@ -30,7 +31,10 @@ import { CarsRowComponent } from './cars-row/cars-row.component';
     FormsModule,
     MatProgressBarModule,
     ReactiveFormsModule,
-    MaterialModule
+    MaterialModule,
+    SvgIconsModule.forRoot({
+      icons: [],
+    })
  
   ],
   providers: [],

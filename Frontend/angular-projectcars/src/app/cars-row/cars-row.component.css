@@ -7,3 +7,11 @@
 .edit-margin {
     margin-left: 800px;
 }
+
+.success {
+  background-color: aliceblue;
+}
+
+.warning {
+  background-color: rgb(253, 229, 229);
+}

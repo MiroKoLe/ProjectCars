@@ -1,5 +1,5 @@
 import { Car } from './../car';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CarsService } from '../cars.service';
 
 @Component({
@@ -8,18 +8,13 @@ import { CarsService } from '../cars.service';
   styleUrls: ['./index.component.css'],
 })
 export class IndexComponent implements OnInit {
-  private _id: string; 
+ @Input('isEditing') isEditing: boolean; 
   cars: Car[] = [];
   private _car: Car = null;
-  private _isDeleted: boolean = false;
-  private _isEditing: boolean;
 
 
   constructor(private carService: CarsService) {}
 
-  get isEditing(): boolean{
-    return this._isEditing;
-  }
 
   ngOnInit(): void {
     this.getCars();
