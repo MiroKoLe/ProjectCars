@@ -9,6 +9,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {TextFieldModule} from '@angular/cdk/text-field';
 
 
 
@@ -22,7 +23,8 @@ const MaterialComponents = [
   MatTooltipModule,
   MatProgressBarModule,
   MatDialogModule,
-  MatToolbarModule
+  MatToolbarModule,
+  TextFieldModule
 ]
 
 @NgModule({

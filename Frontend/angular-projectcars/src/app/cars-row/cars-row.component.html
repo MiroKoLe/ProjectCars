@@ -1,10 +1,17 @@
     <mat-card class="cardColor card-size" [ngClass]="{'success' : isEditing == false, 'warning' : isEditing == true}">   
     <td>{{car.id}}</td>
     <td [hidden]="isEditing">{{car.brand}}</td>
-    <input type="textarea" *ngIf="isEditing" [(ngModel)]="car.brand">
+    <mat-form-field *ngIf="isEditing">
+    <mat-label *ngIf="isEditing">Brand</mat-label>
+    <input matInput *ngIf="isEditing" [(ngModel)]="car.brand">
+    </mat-form-field>
+    <mat-form-field *ngIf="isEditing">
+    <mat-label *ngIf="isEditing">Model</mat-label>
     <td [hidden]="isEditing">{{car.model}}</td>
-    <input type="textarea" *ngIf="isEditing" [(ngModel)]="car.model">
+    <input matInput *ngIf="isEditing" [(ngModel)]="car.model">
+    </mat-form-field>
     <td>{{car.date | date: 'shortDate'}}</td>
+
     
     <div class="edit-margin">
     <button type="submit" mat-raised-button color="primary" (click)="enableEdit()" *ngIf="!isEditing">Edit</button>
