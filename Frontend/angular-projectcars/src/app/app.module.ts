@@ -13,6 +13,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { DetailsComponent } from './details/details.component';
 import { CarsRowComponent } from './cars-row/cars-row.component';
 import { SvgIconsModule } from '@ngneat/svg-icon';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { SvgIconsModule } from '@ngneat/svg-icon';
     MaterialModule,
     SvgIconsModule.forRoot({
       icons: [],
-    })
+    }),
+    NgbModule
  
   ],
   providers: [],
