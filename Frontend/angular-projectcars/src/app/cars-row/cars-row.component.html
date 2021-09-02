@@ -1,60 +1,25 @@
-<mat-card
-  class="cardColor card-size"
-  [ngClass]="{ success: isEditing == false, warning: isEditing == true }"
->
-  <td>{{ car.id }}</td>
-  <td [hidden]="isEditing">{{ car.brand }}</td>
-  <mat-form-field *ngIf="isEditing">
-    <mat-label *ngIf="isEditing">Brand</mat-label>
-    <input matInput *ngIf="isEditing" [(ngModel)]="car.brand" />
-  </mat-form-field>
-  <td [hidden]="isEditing">{{ car.model }}</td>
-  <mat-form-field *ngIf="isEditing">
-    <mat-label *ngIf="isEditing">Model</mat-label>
-    <input matInput *ngIf="isEditing" [(ngModel)]="car.model" />
-  </mat-form-field>
-  <td>{{ car.date | date: "shortDate" }}</td>
+<mat-card class="cardColor card-size" [ngClass]="{'success' : isEditing == false, 'warning' : isEditing == true}">   
+    <td class="input-position">{{car.id}}</td>
+    <td class="input-position"[hidden]="isEditing">{{car.brand}}</td>
+    <mat-form-field *ngIf="isEditing">
+        <mat-label *ngIf="isEditing">Brand</mat-label>
+        <input matInput *ngIf="isEditing" [(ngModel)]="car.brand">
+        </mat-form-field>
+    <td class="input-position" [hidden]="isEditing">{{car.model}}</td>
+    <mat-form-field *ngIf="isEditing">
+        <mat-label *ngIf="isEditing">Model</mat-label>
+        <input matInput *ngIf="isEditing" [(ngModel)]="car.model">
+        </mat-form-field>
+    <td class="input-position">{{car.date | date: 'shortDate'}}</td>
+    
+    <div class="edit-margin">
+    <button type="submit" mat-raised-button color="primary" (click)="enableEdit()" *ngIf="!isEditing">Edit</button>
+    </div>
+    
+    <div class="edit-buttons">
+    <button type="submit" class="margin-left" mat-raised-button color="accent"*ngIf="isEditing" (click)="cancel()">Cancel</button>
+    <button type="submit" class="margin-left" mat-raised-button color="primary"(click)="updateCar(car)" *ngIf="isEditing">Update</button>
+    <button type="submit" class="margin-left" mat-raised-button color="warn" data-toggle="modal" data-target="#exampleModalLong" *ngIf="isEditing">Delete</button>
+    </div>
+    </mat-card>
 
-  <div class="edit-margin">
-    <button
-      type="submit"
-      mat-raised-button
-      color="primary"
-      (click)="enableEdit()"
-      *ngIf="!isEditing"
-    >
-      Edit
-    </button>
-  </div>
-
-  <button
-    type="submit"
-    class="margin-left"
-    mat-raised-button
-    color="accent"
-    *ngIf="isEditing"
-    (click)="cancel()"
-  >
-    Cancel
-  </button>
-  <button
-    type="submit"
-    class="margin-left"
-    mat-raised-button
-    color="primary"
-    (click)="updateCar(car)"
-    *ngIf="isEditing"
-  >
-    Update
-  </button>
-  <button
-    type="submit"
-    class="margin-left"
-    mat-raised-button
-    color="warn"
-    (click)="deleteCar(car.id)"
-    *ngIf="isEditing"
-  >
-    Delete
-  </button>
-</mat-card>

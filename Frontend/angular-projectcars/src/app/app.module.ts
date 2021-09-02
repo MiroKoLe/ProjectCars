@@ -14,6 +14,7 @@ import { DetailsComponent } from './details/details.component';
 import { CarsRowComponent } from './cars-row/cars-row.component';
 import { SvgIconsModule } from '@ngneat/svg-icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ModalWindowComponent } from './modal-window/modal-window.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     IndexComponent,
     AddComponent,
     DetailsComponent,
-    CarsRowComponent
+    CarsRowComponent,
+    ModalWindowComponent
   ],
   imports: [
     BrowserModule,

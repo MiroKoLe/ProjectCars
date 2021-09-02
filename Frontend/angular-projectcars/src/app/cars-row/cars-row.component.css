@@ -5,11 +5,21 @@
     width: 600px;
 }
 .edit-margin {
+  height: fit-content;
     margin-left: 800px;
+}
+
+.edit-buttons{
+  height: fit-content;
+  margin-left: 600px;
 }
 
 .success {
   background-color:white;
+}
+
+.input-position{
+  height: fit-content;
 }
 
 .warning {
