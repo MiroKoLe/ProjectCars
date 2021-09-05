@@ -11,7 +11,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar'
   styleUrls: ['./add.component.css']
 })
 export class AddComponent implements OnInit {
-   message = '';
+  private _isSuccess: boolean; 
   _form: FormGroup;
   data = {
     brand: '', 
@@ -19,10 +19,13 @@ export class AddComponent implements OnInit {
     date: ''
   } 
 
+  get isSuccess(): boolean{
+    return this._isSuccess;
+  }
+
   constructor(private ref: ChangeDetectorRef, private carService: CarsService, private router: Router) { }
 
   ngOnInit(): void {
-  this.message = '';
   }
 
 
@@ -44,9 +47,11 @@ export class AddComponent implements OnInit {
     }
     this.carService.add(data).subscribe(() => {
       this.carService.add(data);
+      this._isSuccess = true; 
+      
       setTimeout(()=> {
         this.router.navigate(['/index'])
-      }, 1000)
+      }, 1500)
     }) 
    
   }
