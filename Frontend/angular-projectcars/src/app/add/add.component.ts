@@ -39,6 +39,11 @@ export class AddComponent implements OnInit {
     this._form = new FormGroup(form);
   }
 
+  reset(){
+    this.data.brand = '';
+    this.data.model = '';
+  }
+
   addCar(): void {
     const data = {
       brand: this.data.brand, 
