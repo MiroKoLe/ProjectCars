@@ -43,6 +43,12 @@ namespace ProjectCars.Controllers
         [HttpPost]
         public async Task<ActionResult<Car>> Post([FromBody] Car car)
         {
+            var cars = await carsManager.Get().ConfigureAwait(false);
+            bool alreadyExist = cars.Any(x => x.Model == car.Model);
+            if (alreadyExist)
+            {
+                throw new Exception("Car already exist");
+            }
             await carsManager.Post(car);
             return CreatedAtAction(nameof(Cars), new { id = car.Id }, car);
         }
