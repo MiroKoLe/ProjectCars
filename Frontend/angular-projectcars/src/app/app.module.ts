@@ -1,11 +1,11 @@
 import { MaterialModule } from './material/material.module';
-import { NgModule } from '@angular/core';
+import { ErrorHandler, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
-import { HttpClientModule, HttpInterceptor } from '@angular/common/http';
+import { HttpClientModule, HttpInterceptor, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AddComponent } from './add/add.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -15,7 +15,8 @@ import { CarsRowComponent } from './cars-row/cars-row.component';
 import { SvgIconsModule } from '@ngneat/svg-icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalWindowComponent } from './modal-window/modal-window.component';
-import { HttpInterceptorComponent } from './http-interceptor/http-interceptor.component';
+import { ServerErrorInterceptor } from './http-interceptor/http-interceptor.component';
+
 
 
 @NgModule({
@@ -26,7 +27,6 @@ import { HttpInterceptorComponent } from './http-interceptor/http-interceptor.co
     DetailsComponent,
     CarsRowComponent,
     ModalWindowComponent,
-    HttpInterceptorComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,7 +43,10 @@ import { HttpInterceptorComponent } from './http-interceptor/http-interceptor.co
     NgbModule
  
   ],
-  providers: [],
+  providers: [
+    { provide: ErrorHandler},
+    { provide: HTTP_INTERCEPTORS, useClass: ServerErrorInterceptor, multi: true }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
