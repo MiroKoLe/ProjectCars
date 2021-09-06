@@ -20,7 +20,7 @@ export class CarsService {
   }
 
   add(data): Observable<any>{
-    return this.http.post(this.apiUrl, data);
+    return this.http.post(this.apiUrl, data)
   }
 
   update(car){

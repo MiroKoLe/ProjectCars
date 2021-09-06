@@ -44,6 +44,7 @@ namespace ProjectCars.Controllers
         public async Task<ActionResult<Car>> Post([FromBody] Car car)
         {
             var cars = await carsManager.Get().ConfigureAwait(false);
+            //not sure this is correct practice but it is how it is :)
             bool alreadyExist = cars.Any(x => x.Model == car.Model);
             if (alreadyExist)
             {
