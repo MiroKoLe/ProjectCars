@@ -15,6 +15,8 @@ export class ServerErrorInterceptor implements HttpInterceptor {
       if(error.status === 500){
         errorMsg = error.error; 
       }
+      window.alert(errorMsg);
+      
       return throwError(errorMsg);
     })
   )
