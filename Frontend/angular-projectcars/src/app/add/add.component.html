@@ -7,6 +7,7 @@
 </button>
 </nav>
 <br>
+
 <div class="center">
   <div class="alert alert-success center" *ngIf="isSuccess" role="alert">
     A new car has been added
@@ -37,6 +38,6 @@
       required
       [(ngModel)]="data.model"/>
       <br>
-      <button (click)="addCar()" class="btn btn-success">Add</button>
+      <button (click)="addCar()" class="btn btn-success" [disabled]="data.model ==='' || data.brand ===''" >Add</button>
       <button (click)="reset()" class="btn btn-primary">Reset</button>
 </div>
