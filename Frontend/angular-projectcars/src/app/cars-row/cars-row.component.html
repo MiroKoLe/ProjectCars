@@ -1,4 +1,4 @@
-<mat-card class="cardColor card-size" [ngClass]="{'success' : isEditing == false, 'warning' : isEditing == true}">   
+<mat-card class="cardColor border-left-0" [ngClass]="{'success' : isEditing == false, 'warning' : isEditing == true}">   
     <td class="input-position">{{car.id}}</td>
     <td class="input-position"[hidden]="isEditing">{{car.brand}}</td>
     <mat-form-field *ngIf="isEditing">
