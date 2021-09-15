@@ -41,6 +41,5 @@ C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Manager\bin\Debug\netcore
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Manager\bin\Debug\netcoreapp3.1\Cars.Manager.pdb
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Manager\bin\Debug\netcoreapp3.1\Cars.Store.dll
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Manager\bin\Debug\netcoreapp3.1\Cars.Store.pdb
-C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Manager\obj\Debug\netcoreapp3.1\Cars.Manager.csproj.CopyComplete
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Manager\obj\Debug\netcoreapp3.1\Cars.Manager.genruntimeconfig.cache
-C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Manager\obj\Debug\netcoreapp3.1\Cars.Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Manager\obj\Debug\netcoreapp3.1\Cars.Manager.csproj.CopyComplete

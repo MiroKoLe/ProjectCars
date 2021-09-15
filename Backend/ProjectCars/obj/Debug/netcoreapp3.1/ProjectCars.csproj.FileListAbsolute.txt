@@ -203,4 +203,5 @@ C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcorea
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\scopedcss\bundle\ProjectCars.styles.css
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.RazorTargetAssemblyInfo.cache
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.genruntimeconfig.cache
-C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\staticwebassets\ProjectCars.StaticWebAssets.xml
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.csproj.CopyComplete
