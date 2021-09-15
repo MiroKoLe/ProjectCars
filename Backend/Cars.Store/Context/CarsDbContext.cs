@@ -47,6 +47,7 @@ namespace Cars.Store.Context
                 entity.Property(e => e.Model)
                     .HasMaxLength(255)
                     .IsUnicode(false);
+
             });
 
             OnModelCreatingPartial(modelBuilder);

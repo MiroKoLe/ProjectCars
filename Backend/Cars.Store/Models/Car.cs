@@ -11,6 +11,5 @@ namespace Cars.Store.Context
         public string Brand { get; set; }
         public string Model { get; set; }
         public DateTime Date { get; set; }
-        public DateTime Updated { get; set; }
     }
 }
