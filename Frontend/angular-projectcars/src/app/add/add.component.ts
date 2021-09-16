@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Car } from '../car';
@@ -12,6 +12,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar'
 })
 export class AddComponent implements OnInit {
   private _isSuccess: boolean; 
+  @Input() messageError: string;
   _form: FormGroup;
   data = {
     brand: '', 

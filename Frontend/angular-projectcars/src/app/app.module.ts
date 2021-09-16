@@ -16,6 +16,7 @@ import { SvgIconsModule } from '@ngneat/svg-icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalWindowComponent } from './modal-window/modal-window.component';
 import { ServerErrorInterceptor } from './http-interceptor/http-interceptor.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -27,6 +28,7 @@ import { ServerErrorInterceptor } from './http-interceptor/http-interceptor.comp
     DetailsComponent,
     CarsRowComponent,
     ModalWindowComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

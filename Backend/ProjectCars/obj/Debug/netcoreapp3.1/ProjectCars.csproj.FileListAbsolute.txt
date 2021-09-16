@@ -205,3 +205,12 @@ C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcorea
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.genruntimeconfig.cache
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\staticwebassets\ProjectCars.StaticWebAssets.xml
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.csproj.CopyComplete
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
