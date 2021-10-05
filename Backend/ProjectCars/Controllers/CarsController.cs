@@ -1,6 +1,7 @@
 ﻿using Cars.Manager;
 using Cars.Manager.Interface;
 using Cars.Store.Context;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,7 @@ namespace ProjectCars.Controllers
             carsManager = _carsManager;
         }
 
+        [Authorize]
         public async Task<IActionResult> Get()
         {
             var cars = await carsManager.Get().ConfigureAwait(false);
