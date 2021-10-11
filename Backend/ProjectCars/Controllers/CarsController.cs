@@ -23,7 +23,7 @@ namespace ProjectCars.Controllers
             carsManager = _carsManager;
         }
 
-        [Authorize]
+        //TODO: put [Authorize] here, do not forget!
         public async Task<IActionResult> Get()
         {
             var cars = await carsManager.Get().ConfigureAwait(false);

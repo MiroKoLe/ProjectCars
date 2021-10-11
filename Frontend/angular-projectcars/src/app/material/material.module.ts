@@ -10,6 +10,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {TextFieldModule} from '@angular/cdk/text-field';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
 
 
 
@@ -24,7 +26,8 @@ const MaterialComponents = [
   MatProgressBarModule,
   MatDialogModule,
   MatToolbarModule,
-  TextFieldModule
+  TextFieldModule, 
+  MatProgressSpinnerModule
 ]
 
 @NgModule({
