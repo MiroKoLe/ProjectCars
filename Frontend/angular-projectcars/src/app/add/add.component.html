@@ -15,29 +15,31 @@
 </div>
 
 <div style="width: 500px; margin: auto">
-  <div class="example-button-container">
-  </div>
-
-  <div class="form-group">
-    <label for="brand">Brand</label>
-    <input
-      type="text" 
-      class="form-control"
-      id="brand"
-      required
-      [(ngModel)]="data.brand"
-    />
-  </div>
-  <div class="form-group">
-    <label for="model">Model</label>
-
-    <input
-      type="text"
-      class="form-control"
-      id="model"
-      required
-      [(ngModel)]="data.model"/>
+  <form [formGroup]="formCars">
+    <div class="form-group">
+      <label for="brand">Brand</label>
+      <input
+        type="text" 
+        class="form-control"
+        id="brand"
+        required
+        formControlName="brand"
+      />
+    </div>
+    <div class="form-group">
+      <label for="model">Model</label>
+  
+      <input
+        type="text"
+        class="form-control"
+        id="model"
+        required
+        formControlName="model"/>
       <br>
-      <button (click)="addCar()" class="btn btn-success" [disabled]="data.model ==='' || data.brand ===''" >Add</button>
-      <button (click)="reset()" class="btn btn-primary">Reset</button>
+      </div>
+    </form>
+      <button (click)="addCar()" class="btn btn-success" [disabled]="!formCars.valid" >Add</button>
+      <button (click)="reset($event)" class="btn btn-primary">Reset</button>
+
 </div>
+
