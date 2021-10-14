@@ -1,3 +1,4 @@
+import { LoadingSpinnerComponent } from './http-interceptor/loading-spinner.component';
 import { MaterialModule } from './material/material.module';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -47,7 +48,8 @@ import { LoginComponent } from './login/login.component';
   ],
   providers: [
     { provide: ErrorHandler},
-    { provide: HTTP_INTERCEPTORS, useClass: ServerErrorInterceptor, multi: true }
+    { provide: HTTP_INTERCEPTORS, useClass: ServerErrorInterceptor, multi: true },
+    { provide: HTTP_INTERCEPTORS, useClass: LoadingSpinnerComponent, multi: true }
   ],
   bootstrap: [AppComponent]
 })

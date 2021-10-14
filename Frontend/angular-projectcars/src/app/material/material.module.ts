@@ -27,7 +27,7 @@ const MaterialComponents = [
   MatDialogModule,
   MatToolbarModule,
   TextFieldModule, 
-  MatProgressSpinnerModule
+  MatProgressSpinnerModule,
 ]
 
 @NgModule({
