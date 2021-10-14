@@ -29,10 +29,8 @@ export class AddComponent implements OnInit {
       model: new FormControl(null, {validators: Validators.required}),
     });
 
-  reset(obj: any){
-    if(obj === null){
-      this.formCars.reset();
-    }
+  reset(){
+    this.formCars.reset();
   }
 
   addCar(): void {
@@ -43,7 +41,5 @@ export class AddComponent implements OnInit {
         this.router.navigate(['/index'])
       }, 1500)
     }) 
-   
   }
-
 }
