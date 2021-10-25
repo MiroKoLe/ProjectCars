@@ -1,9 +1,14 @@
-<div>
-<input>
-</div>
-<br>
-<div>
-<input>
- </div>
- <br>
- <button type=submit>Login</button>
+<form class="form-signin" #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+    <div class="container-fluid">
+        <h2 class="form-signin-heading">Login</h2>
+        <div *ngIf="invalidLogin" class="alert alert-danger">Invalid Login Or Password</div>
+        <br>
+        <label for="username" class="sr-only">Email address</label>
+        <input type="email" id="username" name="username" ngModel class="form-control" placeholder="Use Name" required>
+        <br>
+        <label for="password" class="sr-only">Password</label>
+        <input type="email" id="password" name="password" ngModel class="form-control" placeholder="Password" required>
+        <br>
+        <button type="submit">Submit</button>
+    </div>
+</form>

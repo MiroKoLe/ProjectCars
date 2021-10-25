@@ -38,8 +38,8 @@ export class IndexComponent implements OnInit {
   }
 
   getCar(id: any): void{
-    this.carService.getById(id).subscribe((response: Car) => {
-      this._car = response; 
+    this.carService.getById(id).subscribe((response: Car[]) => {
+      this._cars = response; 
     })
   }
 }

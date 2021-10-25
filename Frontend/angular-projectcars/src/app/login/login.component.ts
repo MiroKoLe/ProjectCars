@@ -27,7 +27,23 @@ export class LoginComponent implements OnInit {
       const token = (<any>response).token;
       localStorage.setItem("jwt", token)
       this.invalidLogin; 
-      this.router.navigate(["/"]);
+      this.router.navigate(["/index"]);
+    }, error => {
+      this.invalidLogin = true;
     }) 
+  }
+
+  isUserAuthenicated() {
+    const token: string = localStorage.getItem("jwt");
+    if(token){
+      return true; 
+    }
+    else {
+      return false; 
+    }
+  }
+
+  logout() {
+    localStorage.removeItem("jwt")
   }
 }
