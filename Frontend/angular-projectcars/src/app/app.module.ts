@@ -1,3 +1,4 @@
+import { AuthGuard } from './login/authGuard.component';
 import { LoadingSpinnerComponent } from './http-interceptor/loading-spinner.component';
 import { MaterialModule } from './material/material.module';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -18,7 +19,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalWindowComponent } from './modal-window/modal-window.component';
 import { ServerErrorInterceptor } from './http-interceptor/http-interceptor.component';
 import { LoginComponent } from './login/login.component';
-
 
 
 @NgModule({
@@ -43,13 +43,15 @@ import { LoginComponent } from './login/login.component';
     SvgIconsModule.forRoot({
       icons: [],
     }),
-    NgbModule
+    NgbModule,
+
  
   ],
   providers: [
     { provide: ErrorHandler},
     { provide: HTTP_INTERCEPTORS, useClass: ServerErrorInterceptor, multi: true },
-    { provide: HTTP_INTERCEPTORS, useClass: LoadingSpinnerComponent, multi: true }
+    { provide: HTTP_INTERCEPTORS, useClass: LoadingSpinnerComponent, multi: true },
+    [AuthGuard]
   ],
   bootstrap: [AppComponent]
 })

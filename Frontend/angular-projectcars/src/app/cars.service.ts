@@ -8,12 +8,12 @@ import { Car } from './car';
   providedIn: 'root'
 })
 export class CarsService {
-  apiUrl = 'https://localhost:44391/api/Cars'
+  apiUrl = 'http://localhost:5000/api/Cars'
 
   constructor(private http: HttpClient) { }
 
   get(): Observable<Car[]>{
-    return this.http.get<Car[]>(this.apiUrl)
+    return this.http.get<Car[]>(this.apiUrl, {headers: new HttpHeaders({"ContentType": "application/jsonn"})})
   }
 
   getById(id): Observable<any> {

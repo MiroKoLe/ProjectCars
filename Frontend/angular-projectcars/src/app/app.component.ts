@@ -1,3 +1,4 @@
+import { JwtHelperService, JwtModule } from '@auth0/angular-jwt';
 import { Component } from '@angular/core';
 import { delay } from 'rxjs/operators';
 import { LoadingService } from './loading.service';
@@ -18,7 +19,7 @@ export class AppComponent {
 
   listenToLoading(): void {
     this._loading.loadingSub.pipe(delay(2)).subscribe((loading) => {
-      this.loading = loading;
+      this.loading = loading; 
     });
   }
 }

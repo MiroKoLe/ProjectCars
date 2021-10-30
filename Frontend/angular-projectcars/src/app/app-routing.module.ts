@@ -4,16 +4,29 @@ import { AddComponent } from './add/add.component';
 import { IndexComponent } from './index/index.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuthGuard } from './login/authGuard.component';
+import { JwtModule } from '@auth0/angular-jwt';
+
+export function tokenGetter() {
+  return localStorage.getItem('jwt');
+}
 
 const routes: Routes = [
   {path: 'login', component:LoginComponent},
-  {path: 'index', component: IndexComponent},
+  {path: 'index', component: IndexComponent, canActivate: [AuthGuard]},
   {path: 'create', component: AddComponent},
   {path: 'details/:id', component: DetailsComponent}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes),
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: tokenGetter,
+        allowedDomains: ["https://localhost:44391"],
+        disallowedRoutes: []
+      }
+      })],
+  exports: [RouterModule],
 })
 export class AppRoutingModule { }

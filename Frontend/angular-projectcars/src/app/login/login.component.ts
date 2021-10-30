@@ -1,5 +1,5 @@
 import { LoginService } from './../login.service';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
@@ -12,18 +12,18 @@ import { Router } from '@angular/router';
 export class LoginComponent implements OnInit {
   invalidLogin: boolean = false; 
 
-  constructor(private router: Router, private loginService: LoginService) { }
+  constructor(private router: Router, private loginService: LoginService, private http: HttpClient) { }
 
   ngOnInit(): void {
   }
 
   login(form: NgForm){
-    const credentials = {
-      "username": form.value.username,
-      "password": form.value.password
-    }
+    const credentials = JSON.stringify(form.value);
 
-    this.loginService.post(credentials).subscribe(response => {
+    this.http.post("http://localhost:5000/Api/Auth/Login", credentials, {
+      headers: new HttpHeaders({
+        "Content-Type": "application/json"
+      })}).subscribe(response => {
       const token = (<any>response).token;
       localStorage.setItem("jwt", token)
       this.invalidLogin; 
@@ -31,19 +31,5 @@ export class LoginComponent implements OnInit {
     }, error => {
       this.invalidLogin = true;
     }) 
-  }
-
-  isUserAuthenicated() {
-    const token: string = localStorage.getItem("jwt");
-    if(token){
-      return true; 
-    }
-    else {
-      return false; 
-    }
-  }
-
-  logout() {
-    localStorage.removeItem("jwt")
   }
 }

@@ -23,6 +23,7 @@
     "@angular/platform-browser": "~11.2.3",
     "@angular/platform-browser-dynamic": "~11.2.3",
     "@angular/router": "~11.2.3",
+    "@auth0/angular-jwt": "^5.0.2",
     "@material-ui/icons": "^4.11.2",
     "@mdi/angular-material": "^5.9.55",
     "@ng-bootstrap/ng-bootstrap": "^9.1.3",

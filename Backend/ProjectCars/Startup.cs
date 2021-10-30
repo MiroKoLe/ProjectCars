@@ -46,48 +46,47 @@ namespace ProjectCars
                         ValidateAudience = true,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
-
-                        ValidIssuer = "https://localhost:44391",
-                        ValidAudience = "https://localhost:44391",
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SuperSecretKey@123"))
+                        ValidIssuer = "http://localhost:44391",
+                        ValidAudience = "http://localhost:44391",
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"))
                     };
                 });
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("EnableCORS", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+                });
+            });
+
             services.AddScoped<ICarsManager, CarsManager>();
             services.AddScoped<ICarsStore, CarsStore>();
-            services.AddCors();
             services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseCors(builder => builder
-                  .AllowAnyHeader()
-                  .AllowAnyMethod()
-                  .SetIsOriginAllowed((host) => true)
-                  .AllowCredentials()
-              );
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
             app.UseRouting();
-
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
             app.UseAuthentication();
             app.UseAuthorization();
 
+            app.UseCors(options => options.AllowAnyOrigin());
+
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",    
-                    pattern: "{controller=Home}/{action=Index}/{Id?}");
+                endpoints.MapControllers();
             });
         }
     }
