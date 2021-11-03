@@ -43,11 +43,11 @@ namespace ProjectCars
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
                         ValidateIssuer = true,
-                        ValidateAudience = true,
+                        ValidateAudience = false,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
-                        ValidIssuer = "http://localhost:44391",
-                        ValidAudience = "http://localhost:44391",
+                        ValidIssuer = "http://localhost:5000",
+                        ValidAudience = "http://localhost:5000",
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"))
                     };
                 });
@@ -70,20 +70,22 @@ namespace ProjectCars
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors("EnableCORS");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
 
+            app.UseRouting();
+
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
-
-            app.UseCors(options => options.AllowAnyOrigin());
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
