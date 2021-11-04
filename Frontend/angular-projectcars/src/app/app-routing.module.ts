@@ -19,14 +19,15 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes),
+  imports: [RouterModule.forRoot(routes), 
     JwtModule.forRoot({
       config: {
         tokenGetter: tokenGetter,
-        allowedDomains: ["https://localhost:44391"],
-        disallowedRoutes: []
+        whitelistedDomains: ["https://localhost:5000"],
+        blacklistedRoutes: []
       }
       })],
+      providers: [AuthGuard],
   exports: [RouterModule],
 })
 export class AppRoutingModule { }

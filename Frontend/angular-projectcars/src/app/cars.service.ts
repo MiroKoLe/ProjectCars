@@ -13,7 +13,9 @@ export class CarsService {
   constructor(private http: HttpClient) { }
 
   get(): Observable<Car[]>{
-    return this.http.get<Car[]>(this.apiUrl, {headers: new HttpHeaders({"ContentType": "application/jsonn"})})
+    return this.http.get<Car[]>(this.apiUrl, 
+      {headers: new HttpHeaders({
+        'Authorization': 'Bearer ' + localStorage.getItem('jwt')})})
   }
 
   getById(id): Observable<any> {
