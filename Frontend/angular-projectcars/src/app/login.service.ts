@@ -6,11 +6,10 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class LoginService {
-  apiUrl = 'https://localhost:44391/Api/Auth/Login'
+  apiUrl = 'http://localhost:5000/Api/Auth/Login'
 
   constructor(private http: HttpClient) { }
 
-  post(data): Observable<any>{
-    return this.http.post(this.apiUrl, data, {headers: new HttpHeaders({"ContentType": "application/jsonn"})})
-  }
+  post(data: any): Observable<any>{
+    return this.http.post(this.apiUrl, data, {headers: new HttpHeaders({"ContentType": "application/json"})})  }
 }

@@ -18,12 +18,12 @@ export class LoginComponent implements OnInit {
   }
 
   login(form: NgForm){
-    const credentials = JSON.stringify(form.value);
+    const credentials = {
+      'username': form.value.username,
+      'password': form.value.password
+    };
 
-    this.http.post("http://localhost:5000/Api/Auth/Login", credentials, {
-      headers: new HttpHeaders({
-        "Content-Type": "application/json"
-      })}).subscribe(response => {
+    this.loginService.post(credentials).subscribe(response => {
       const token = (<any>response).token;
       localStorage.setItem("jwt", token)
       this.invalidLogin; 
