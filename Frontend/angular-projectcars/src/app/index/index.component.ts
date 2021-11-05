@@ -2,6 +2,7 @@ import { Car } from './../car';
 import { Component, Input, OnInit } from '@angular/core';
 import { CarsService } from '../cars.service';
 import { JwtHelperService } from '@auth0/angular-jwt';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-index',
@@ -19,7 +20,7 @@ export class IndexComponent implements OnInit {
     return this._cars;
   }
 
-  constructor(private carService: CarsService, private jwtHelper: JwtHelperService) {}
+  constructor(private router: Router, private carService: CarsService, private jwtHelper: JwtHelperService) {}
 
   getCars(): void {
     this.carService.get().subscribe((response) => {
@@ -83,5 +84,6 @@ export class IndexComponent implements OnInit {
   
     logout() {
       localStorage.removeItem("jwt")
+      this.router.navigate(["/login"]);
     }
 }
