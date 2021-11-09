@@ -200,10 +200,8 @@ C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcorea
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\Cars.Manager.pdb
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\Cars.Store.pdb
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\staticwebassets\ProjectCars.StaticWebAssets.Manifest.cache
-C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\scopedcss\bundle\ProjectCars.styles.css
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.RazorTargetAssemblyInfo.cache
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.genruntimeconfig.cache
-C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\staticwebassets\ProjectCars.StaticWebAssets.xml
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.csproj.CopyComplete
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\EntityFramework.dll
@@ -215,3 +213,5 @@ C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcorea
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\bin\Debug\netcoreapp3.1\ProjectCars.StaticWebAssets.xml
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\ProjectCars\obj\Debug\netcoreapp3.1\ProjectCars.GeneratedMSBuildEditorConfig.editorconfig

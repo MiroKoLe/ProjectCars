@@ -32,3 +32,5 @@ C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\bin\Debug\netcoreap
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\bin\Debug\netcoreapp3.1\Cars.Store.dll
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\bin\Debug\netcoreapp3.1\Cars.Store.pdb
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\netcoreapp3.1\Cars.Store.genruntimeconfig.cache
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\netcoreapp3.1\Cars.Store.csproj.AssemblyReference.cache
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\netcoreapp3.1\Cars.Store.GeneratedMSBuildEditorConfig.editorconfig
