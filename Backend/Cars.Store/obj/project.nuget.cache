@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K0baOCmn1k/gArfzVRwjoyTESlCff7q8rOczcUxDI9j/Rf9Ft7dbEtR6Ag3IFBEoF10+4CO1i3eaixfEQbjUPQ==",
+  "dgSpecHash": "VchuJj08wP4cqp21heIEQbHyep3EWICGOk65FOyD3scm7OjBBFk4pmT342CLHkrWIxZm1xD93S2SwnNrS3ZITw==",
   "success": true,
   "projectFilePath": "C:\\Users\\miroslav.kolev\\Desktop\\LittleApp\\Backend\\Cars.Store\\Cars.Store.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.0\\microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "C:\\Users\\miroslav.kolev\\.nuget\\packages\\microsoft.codecoverage\\17.0.0\\microsoft.codecoverage.17.0.0.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

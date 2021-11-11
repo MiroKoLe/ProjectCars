@@ -23,7 +23,6 @@ namespace ProjectCars.Controllers
             carsManager = _carsManager;
         }
 
-        //TODO: put [Authorize] here, do not forget!
         [HttpGet]
         [Authorize]
         public async Task<ActionResult<IEnumerable<Car>>> Get()
