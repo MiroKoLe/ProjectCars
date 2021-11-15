@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "03b00c50-52ce-49af-bf56-a0ec4a8d0520": {
+      "ProjectGuid": "03b00c50-52ce-49af-bf56-a0ec4a8d0520",
+      "DisplayName": "ProjectCars",
+      "ColorIndex": 0
+    },
+    "7fb18906-b8e7-411a-9319-2289b611e31d": {
+      "ProjectGuid": "7fb18906-b8e7-411a-9319-2289b611e31d",
+      "DisplayName": "Cars.Manager",
+      "ColorIndex": 1
+    },
+    "a6f50785-14f3-4a57-999a-3f593687572b": {
+      "ProjectGuid": "a6f50785-14f3-4a57-999a-3f593687572b",
+      "DisplayName": "CarTest",
+      "ColorIndex": 2
+    },
+    "84310457-7b81-4eb2-8724-df9d6efd1292": {
+      "ProjectGuid": "84310457-7b81-4eb2-8724-df9d6efd1292",
+      "DisplayName": "CarsUnitTest",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "fa8f3823-5d4a-42c0-9bca-113f562064b2": {
+      "ProjectGuid": "fa8f3823-5d4a-42c0-9bca-113f562064b2",
+      "DisplayName": "Cars.Store",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

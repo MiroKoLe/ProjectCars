@@ -1,0 +1,13 @@
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\bin\Debug\net6.0\Cars.Store.deps.json
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\bin\Debug\net6.0\Cars.Store.runtimeconfig.json
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\bin\Debug\net6.0\Cars.Store.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\bin\Debug\net6.0\ref\Cars.Store.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\bin\Debug\net6.0\Cars.Store.pdb
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Cars.Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Cars.Store.AssemblyInfoInputs.cache
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Cars.Store.AssemblyInfo.cs
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Cars.Store.csproj.CoreCompileInputs.cache
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Cars.Store.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\ref\Cars.Store.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Cars.Store.pdb
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Cars.Store.genruntimeconfig.cache
