@@ -14,8 +14,8 @@ export function tokenGetter() {
 const routes: Routes = [
   {path: 'login', component:LoginComponent},
   {path: 'index', component: IndexComponent, canActivate: [AuthGuard]},
-  {path: 'create', component: AddComponent},
-  {path: 'details/:id', component: DetailsComponent}
+  {path: 'create', component: AddComponent, canActivate: [AuthGuard]},
+  {path: 'details/:id', component: DetailsComponent, canActivate: [AuthGuard]}
 ];
 
 @NgModule({
