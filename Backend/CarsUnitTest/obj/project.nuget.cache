@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zQykMuFX9SW1mnmSbA3w7LqgETVC9bahtGQ+MNItsqVn0zlGMEdtMTuXzf1TkPSPpGAFBlZZIlYgUbrZdpkIdA==",
+  "dgSpecHash": "lbzJ22n1HNPKweUgoYp9C0MnQ9g2uMK0ValvSpAjVvzDnVX3V56St8+Qo6uvU8G443viD8vdlPOwF9oo7dwd0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\miroslav.kolev\\Desktop\\LittleApp\\Backend\\CarsUnitTest\\CarsUnitTest.csproj",
   "expectedPackageFiles": [
@@ -67,6 +67,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\miroslav.kolev\\.nuget\\packages\\mono.posix.netstandard\\1.0.0\\mono.posix.netstandard.1.0.0.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\mstest.testadapter\\2.2.3\\mstest.testadapter.2.2.3.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\mstest.testframework\\2.2.3\\mstest.testframework.2.2.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
@@ -178,7 +179,11 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\miroslav.kolev\\.nuget\\packages\\terminal\\0.2.0\\terminal.0.2.0.nupkg.sha512",
+    "C:\\Users\\miroslav.kolev\\.nuget\\packages\\vanara.core\\3.2.3\\vanara.core.3.2.3.nupkg.sha512",
+    "C:\\Users\\miroslav.kolev\\.nuget\\packages\\vanara.pinvoke.kernel32\\3.2.3\\vanara.pinvoke.kernel32.3.2.3.nupkg.sha512",
+    "C:\\Users\\miroslav.kolev\\.nuget\\packages\\vanara.pinvoke.shared\\3.2.3\\vanara.pinvoke.shared.3.2.3.nupkg.sha512"
   ],
   "logs": []
 }

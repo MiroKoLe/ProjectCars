@@ -11,3 +11,4 @@ C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Ca
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\ref\Cars.Store.dll
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Cars.Store.pdb
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Cars.Store.genruntimeconfig.cache
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net6.0\Cars.Store.csproj.AssemblyReference.cache

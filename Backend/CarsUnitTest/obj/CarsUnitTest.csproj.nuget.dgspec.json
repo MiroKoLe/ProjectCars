@@ -78,6 +78,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Terminal": {
+              "target": "Package",
+              "version": "[0.2.0, )"
             }
           },
           "imports": [
@@ -177,6 +181,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Terminal": {
+              "target": "Package",
+              "version": "[0.2.0, )"
             }
           },
           "imports": [
@@ -266,6 +274,10 @@
             "ReportGenerator": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Terminal": {
+              "target": "Package",
+              "version": "[0.2.0, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -372,6 +384,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Terminal": {
+              "target": "Package",
+              "version": "[0.2.0, )"
             }
           },
           "imports": [

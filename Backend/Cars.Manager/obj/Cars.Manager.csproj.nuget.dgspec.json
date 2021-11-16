@@ -78,6 +78,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Terminal": {
+              "target": "Package",
+              "version": "[0.2.0, )"
             }
           },
           "imports": [
@@ -177,6 +181,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Terminal": {
+              "target": "Package",
+              "version": "[0.2.0, )"
             }
           },
           "imports": [
