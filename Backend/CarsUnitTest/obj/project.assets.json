@@ -3079,7 +3079,7 @@
       },
       "Cars.Manager/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Cars.Store": "1.0.0",
           "EntityFramework": "6.4.4",
@@ -3099,7 +3099,7 @@
       },
       "Cars.Store/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "EntityFramework": "6.4.4",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.20",
@@ -3120,7 +3120,7 @@
       },
       "ProjectCars/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Cars.Manager": "1.0.0",
           "Cars.Store": "1.0.0",

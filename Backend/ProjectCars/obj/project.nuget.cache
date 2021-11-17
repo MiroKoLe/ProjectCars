@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nqCVa9zWf5belSAVLx+NbGT4DvbI41AJdAfyS1VKp09mUozZXjxXHqUe8DtBoY5NgS/3UJC7EFS0b7t88qNJkg==",
+  "dgSpecHash": "2ulWwQFztgbJ+JWyfYyeXObnqqcvL/gM46CyxvTDKLIIB5X0Is89IvAFYdfE6JVM5EYwDVby1z4I29foSzvcbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\miroslav.kolev\\Desktop\\LittleApp\\Backend\\ProjectCars\\ProjectCars.csproj",
   "expectedPackageFiles": [
@@ -146,7 +146,8 @@
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\terminal\\0.2.0\\terminal.0.2.0.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\vanara.core\\3.2.3\\vanara.core.3.2.3.nupkg.sha512",
     "C:\\Users\\miroslav.kolev\\.nuget\\packages\\vanara.pinvoke.kernel32\\3.2.3\\vanara.pinvoke.kernel32.3.2.3.nupkg.sha512",
-    "C:\\Users\\miroslav.kolev\\.nuget\\packages\\vanara.pinvoke.shared\\3.2.3\\vanara.pinvoke.shared.3.2.3.nupkg.sha512"
+    "C:\\Users\\miroslav.kolev\\.nuget\\packages\\vanara.pinvoke.shared\\3.2.3\\vanara.pinvoke.shared.3.2.3.nupkg.sha512",
+    "C:\\Users\\miroslav.kolev\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
   "logs": []
 }

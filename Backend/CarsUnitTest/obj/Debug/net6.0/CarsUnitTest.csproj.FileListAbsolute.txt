@@ -179,3 +179,4 @@ C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\CarsUnitTest\bin\Debug\net6.0\
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\CarsUnitTest\bin\Debug\net6.0\runtimes\win-x86\lib\netstandard2.0\Mono.Posix.NETStandard.dll
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\CarsUnitTest\bin\Debug\net6.0\runtimes\win-x86\native\MonoPosixHelper.dll
 C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\CarsUnitTest\bin\Debug\net6.0\runtimes\win-x86\native\libMonoPosixHelper.dll
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\CarsUnitTest\bin\Debug\net6.0\ProjectCars.runtimeconfig.dev.json
