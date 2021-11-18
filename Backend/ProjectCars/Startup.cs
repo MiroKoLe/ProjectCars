@@ -2,11 +2,13 @@ using Cars.Manager;
 using Cars.Manager.Interface;
 using Cars.Store.Context;
 using Cars.Store.Interface;
+using Cars.Store.Models;
 using Cars.Store.Store;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -27,7 +29,6 @@ namespace ProjectCars
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-
         }
 
         public IConfiguration Configuration { get; }
@@ -66,6 +67,9 @@ namespace ProjectCars
 
             services.AddDbContext<AuthenticationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            //services.AddIdentity<User, IdentityRole>()
+            //.AddEntityFrameworkStores<AuthenticationDbContext>();
 
             services.AddScoped<ICarsManager, CarsManager>();
             services.AddScoped<ICarsStore, CarsStore>();
