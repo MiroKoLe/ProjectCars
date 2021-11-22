@@ -1,0 +1,5 @@
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net5.0.12\Cars.Store.csproj.AssemblyReference.cache
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net5.0.12\Cars.Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net5.0.12\Cars.Store.AssemblyInfoInputs.cache
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net5.0.12\Cars.Store.AssemblyInfo.cs
+C:\Users\miroslav.kolev\Desktop\LittleApp\Backend\Cars.Store\obj\Debug\net5.0.12\Cars.Store.csproj.CoreCompileInputs.cache

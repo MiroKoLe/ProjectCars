@@ -65,11 +65,11 @@ namespace ProjectCars
                 });
             });
 
+            services.AddIdentity<User, IdentityRole>()
+            .AddEntityFrameworkStores<AuthenticationDbContext>();
+
             services.AddDbContext<AuthenticationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
-            //services.AddIdentity<User, IdentityRole>()
-            //.AddEntityFrameworkStores<AuthenticationDbContext>();
 
             services.AddScoped<ICarsManager, CarsManager>();
             services.AddScoped<ICarsStore, CarsStore>();

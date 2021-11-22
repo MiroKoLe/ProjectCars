@@ -1,0 +1,355 @@
+﻿++Solution 'ProjectCars' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:ProjectCars.sln
+++ProjectCars
+i:{00000000-0000-0000-0000-000000000000}:ProjectCars
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\projectcars.csproj
+++Connected Services 
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>1633
+++Dependencies
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>1631
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>1629
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:>1630
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:>1632
+++Analyzers
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:analyzers
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:analyzers
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:analyzers
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:analyzers
+++Frameworks
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:frameworks
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:frameworks
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:frameworks
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:frameworks
+++Packages
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:packages
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:packages
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:packages
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:packages
+++Projects
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:projects
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:projects
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:projects
+++Properties
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\properties\
+++Controllers
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\controllers\
+++AuthController.cs
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\controllers\authcontroller.cs
+++CarsController.cs
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\controllers\carscontroller.cs
+++appsettings.json
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\appsettings.json
+++Program.cs
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\program.cs
+++Startup.cs
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\startup.cs
+++WeatherForecast.cs
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\weatherforecast.cs
+++No service dependencies discovered
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>1634
+++Microsoft.AspNetCore.Analyzers
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\users\miroslav.kolev\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\microsoft.netcore.app
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\microsoft.netcore.app
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.manager\microsoft.netcore.app
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\microsoft.netcore.app
+++EntityFramework (6.4.4)
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>1669
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>1688
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:>1702
+++Microsoft.AspNetCore.Authentication.JwtBearer (3.1.20)
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>1667
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>1685
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:>1700
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (5.0.7)
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>2737
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>2739
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:>2745
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:>2746
+++Microsoft.AspNetCore.Mvc.Abstractions (2.2.0)
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>1666
+++Microsoft.CodeCoverage (17.0.0)
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>1663
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>1682
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:>1697
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:>1644
+++Microsoft.EntityFrameworkCore (5.0.7)
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>2735
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>2741
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:>2742
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.7)
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>2736
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>2738
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:>2743
+++Microsoft.EntityFrameworkCore.Tools (5.0.7)
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>2734
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>2740
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:>2744
+++Terminal (0.2.0)
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:>1665
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>1684
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:>1699
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:>1646
+++Cars.Manager
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.manager\cars.manager.csproj
+i:{00000000-0000-0000-0000-000000000000}:Cars.Manager
+++Cars.Store
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\cars.store.csproj
+i:{00000000-0000-0000-0000-000000000000}:Cars.Store
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\cars.store.csproj
+++launchSettings.json
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\properties\launchsettings.json
+++appsettings.Development.json
+i:{03b00c50-52ce-49af-bf56-a0ec4a8d0520}:c:\users\miroslav.kolev\desktop\littleapp\backend\projectcars\appsettings.development.json
+++Microsoft.AspNetCore.Cors (2.2.0)
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>1681
+++Microsoft.AspNetCore.Mvc.Core (2.2.5)
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>1686
+++Context
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\context\
+++CarsDbContext.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\context\carsdbcontext.cs
+++UserDbContext.cs
+++Interface
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\interface\
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.manager\interface\
+++Migrations
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\migrations\
+++Models
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\models\
+++Car.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\models\car.cs
+++User.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\models\user.cs
+++Store
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\store\
+++CarsStore.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\store\carsstore.cs
+++UserStore.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\store\userstore.cs
+++ICarsStore.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\interface\icarsstore.cs
+++20210915194031_initial.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\migrations\20210915194031_initial.cs
+++20210915200405_AddUpdatedColumn.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\migrations\20210915200405_addupdatedcolumn.cs
+++CarsDbContextModelSnapshot.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\migrations\carsdbcontextmodelsnapshot.cs
+++20210915194031_initial.Designer.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\migrations\20210915194031_initial.designer.cs
+++20210915200405_AddUpdatedColumn.Designer.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\migrations\20210915200405_addupdatedcolumn.designer.cs
+++CarsManager.cs
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.manager\carsmanager.cs
+++ICarsManager.cs
+i:{7fb18906-b8e7-411a-9319-2289b611e31d}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.manager\interface\icarsmanager.cs
+++CarsUnitTest
+i:{00000000-0000-0000-0000-000000000000}:CarsUnitTest
+++coveragereport
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\
+++TestResults
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\
+++CarsControllerTest.cs
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\carscontrollertest.cs
+++Cars.Manager_CarsManager.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\cars.manager_carsmanager.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\cars.manager_carsmanager.html
+++Cars.Store_AddUpdatedColumn.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\cars.store_addupdatedcolumn.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\cars.store_addupdatedcolumn.html
+++Cars.Store_Car.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\cars.store_car.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\cars.store_car.html
+++Cars.Store_CarsDbContext.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\cars.store_carsdbcontext.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\cars.store_carsdbcontext.html
+++Cars.Store_CarsDbContextModelSnapshot.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\cars.store_carsdbcontextmodelsnapshot.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\cars.store_carsdbcontextmodelsnapshot.html
+++Cars.Store_CarsStore.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\cars.store_carsstore.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\cars.store_carsstore.html
+++Cars.Store_initial.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\cars.store_initial.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\cars.store_initial.html
+++Cars.Store_User.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\cars.store_user.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\cars.store_user.html
+++class.js
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\class.js
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\class.js
+++icon_cube.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_cube.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_cube.svg
+++icon_cube_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_cube_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_cube_dark.svg
+++icon_down-dir_active.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_down-dir_active.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_down-dir_active.svg
+++icon_down-dir_active_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_down-dir_active_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_down-dir_active_dark.svg
+++icon_fork.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_fork.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_fork.svg
+++icon_fork_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_fork_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_fork_dark.svg
+++icon_info-circled.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_info-circled.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_info-circled.svg
+++icon_info-circled_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_info-circled_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_info-circled_dark.svg
+++icon_minus.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_minus.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_minus.svg
+++icon_minus_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_minus_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_minus_dark.svg
+++icon_plus.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_plus.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_plus.svg
+++icon_plus_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_plus_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_plus_dark.svg
+++icon_search-minus.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_search-minus.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_search-minus.svg
+++icon_search-minus_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_search-minus_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_search-minus_dark.svg
+++icon_search-plus.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_search-plus.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_search-plus.svg
+++icon_search-plus_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_search-plus_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_search-plus_dark.svg
+++icon_sponsor.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_sponsor.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_sponsor.svg
+++icon_star.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_star.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_star.svg
+++icon_star_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_star_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_star_dark.svg
+++icon_up-dir.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_up-dir.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_up-dir.svg
+++icon_up-dir_active.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_up-dir_active.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_up-dir_active.svg
+++icon_wrench.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_wrench.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_wrench.svg
+++icon_wrench_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\icon_wrench_dark.svg
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\icon_wrench_dark.svg
+++index.htm
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\index.htm
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\index.htm
+++index.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\index.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\index.html
+++main.js
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\main.js
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\main.js
+++ProjectCars_AuthController.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\projectcars_authcontroller.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\projectcars_authcontroller.html
+++ProjectCars_CarsController.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\projectcars_carscontroller.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\projectcars_carscontroller.html
+++ProjectCars_Program.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\projectcars_program.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\projectcars_program.html
+++ProjectCars_Startup.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\projectcars_startup.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\projectcars_startup.html
+++ProjectCars_WeatherForecast.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\projectcars_weatherforecast.html
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\projectcars_weatherforecast.html
+++report.css
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\coveragereport\report.css
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\coveragereport\report.css
+++1475701e-d3e7-4393-83a9-243e53fccfec
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\1475701e-d3e7-4393-83a9-243e53fccfec\
+++183bd8ff-e4c8-4c41-8a05-3ce27463f8ae
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\183bd8ff-e4c8-4c41-8a05-3ce27463f8ae\
+++f8a5cb90-387a-4801-984f-00db0d78e53e
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\f8a5cb90-387a-4801-984f-00db0d78e53e\
+++coverlet.collector (3.0.2)
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:>1647
+++Microsoft.NET.Test.Sdk (16.9.4)
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:>1642
+++MSTest.TestAdapter (2.2.3)
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:>1648
+++MSTest.TestFramework (2.2.3)
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:>1641
+++ReportGenerator (5.0.0)
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:>1643
+++coverage.cobertura.xml
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\1475701e-d3e7-4393-83a9-243e53fccfec\coverage.cobertura.xml
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\183bd8ff-e4c8-4c41-8a05-3ce27463f8ae\coverage.cobertura.xml
+i:{84310457-7b81-4eb2-8724-df9d6efd1292}:c:\users\miroslav.kolev\desktop\littleapp\backend\carsunittest\testresults\f8a5cb90-387a-4801-984f-00db0d78e53e\coverage.cobertura.xml
+++AuthenticationDbContext.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\context\authenticationdbcontext.cs
+++Microsoft.AspNetCore.Identity.UI (6.0.0)
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:>2750
+++AuthenticationDb
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\migrations\authenticationdb\
+++20211117205152_InitialCreate.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\migrations\authenticationdb\20211117205152_initialcreate.cs
+++AuthenticationDbContextModelSnapshot.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\migrations\authenticationdb\authenticationdbcontextmodelsnapshot.cs
+++20211117205152_InitialCreate.Designer.cs
+i:{fa8f3823-5d4a-42c0-9bca-113f562064b2}:c:\users\miroslav.kolev\desktop\littleapp\backend\cars.store\migrations\authenticationdb\20211117205152_initialcreate.designer.cs
