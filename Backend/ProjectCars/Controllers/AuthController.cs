@@ -1,5 +1,8 @@
-﻿using Cars.Store.Models;
+﻿using Cars.Store.Entities;
+using Cars.Store.Models;
+using Cars.Store.Store;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -15,14 +18,26 @@ namespace ProjectCars.Controllers
     [Route("api/auth")]
     public class AuthController : Controller
     {
+        
+        private readonly UserManager<User> _userManager;
+
+        public AuthController(UserManager<User> userManager)
+        {
+            _userManager = userManager;
+        }
+
         [HttpPost, Route("login")]
-        public IActionResult Login([FromBody] User user)
+      
+        public async Task<IActionResult> Login([FromBody] User user)
         {
             if(user == null)
             {
                 BadRequest("Invalid Client Request");
             }
-              if(user.UserName == "miroslavkolev@gmail.com" && user.Password == "2110") //ovdje ce se usporedivati vrijednost inputa i baze
+
+            var existingUser = await _userManager.FindByNameAsync(user.UserName).ConfigureAwait(false);
+            var existingPassword = _userManager.PasswordHasher.VerifyHashedPassword(user, user.PasswordHash, user.Password);
+            if (existingUser != null && existingPassword == PasswordVerificationResult.Failed)
             {
                 var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"));
                 var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);

@@ -22,6 +22,6 @@ namespace Cars.Store.Store
             base.OnModelCreating(builder);
 
         }
-
+        public DbSet<User> User { get; set; }
     }
 }
