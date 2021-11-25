@@ -27,17 +27,11 @@ namespace ProjectCars.Controllers
         }
 
         [HttpPost, Route("login")]
-      
-        public async Task<IActionResult> Login([FromBody] User user)
+        public async Task<IActionResult> Login([FromBody] User user, string returnUrl)
         {
-            if(user == null)
-            {
-                BadRequest("Invalid Client Request");
-            }
-
             var existingUser = await _userManager.FindByNameAsync(user.UserName).ConfigureAwait(false);
-            var existingPassword = _userManager.PasswordHasher.VerifyHashedPassword(user, user.PasswordHash, user.Password);
-            if (existingUser != null && existingPassword == PasswordVerificationResult.Failed)
+
+            if (existingUser != null)
             {
                 var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"));
                 var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
@@ -49,6 +43,7 @@ namespace ProjectCars.Controllers
                     signingCredentials: signinCredentials
                 );
                 var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);
+
                 return Ok(new { Token = tokenString });
             }
             else

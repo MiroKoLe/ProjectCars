@@ -24,7 +24,6 @@ namespace ProjectCars.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public async Task<ActionResult<IEnumerable<Car>>> Get()
         {
             var cars = await carsManager.Get().ConfigureAwait(false);

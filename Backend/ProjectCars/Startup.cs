@@ -19,6 +19,7 @@ using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -65,11 +66,17 @@ namespace ProjectCars
                 });
             });
 
-            services.AddIdentity<User, IdentityRole>()
+            services.AddIdentity<User, IdentityRole>(opt =>
+            {
+                opt.Password.RequiredLength = 7;
+                opt.Password.RequireDigit = true;
+                opt.Password.RequireUppercase = true;
+                opt.User.RequireUniqueEmail = true;
+            })
             .AddEntityFrameworkStores<AuthenticationDbContext>();
 
             services.AddDbContext<AuthenticationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));           
 
             services.AddScoped<ICarsManager, CarsManager>();
             services.AddScoped<ICarsStore, CarsStore>();
@@ -80,6 +87,15 @@ namespace ProjectCars
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseCors("EnableCORS");
+
+            //dodatno kako api ne bi preusmjeravao page na login i time onemogucavao prikaz liste.
+            app.UseStatusCodePages(async context => {
+                var response = context.HttpContext.Response;
+
+                if (response.StatusCode == (int)HttpStatusCode.Unauthorized ||
+                    response.StatusCode == (int)HttpStatusCode.Forbidden)
+                    response.Redirect("/api/Cars");
+            });
 
             if (env.IsDevelopment())
             {
