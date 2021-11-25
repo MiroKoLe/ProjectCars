@@ -13,6 +13,7 @@ export function tokenGetter() {
 
 const routes: Routes = [
   {path: 'login', component:LoginComponent},
+  {path: 'auth', loadChildren: () => import('./authentication/authentication.module').then(m => m.AuthenticationModule) },
   {path: 'index', component: IndexComponent, canActivate: [AuthGuard]},
   {path: 'create', component: AddComponent, canActivate: [AuthGuard]},
   {path: 'details/:id', component: DetailsComponent, canActivate: [AuthGuard]}

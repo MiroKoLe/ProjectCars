@@ -27,7 +27,7 @@ namespace ProjectCars.Controllers
         }
 
         [HttpPost, Route("login")]
-        public async Task<IActionResult> Login([FromBody] User user, string returnUrl)
+        public async Task<IActionResult> Login([FromBody] User user)
         {
             var existingUser = await _userManager.FindByNameAsync(user.UserName).ConfigureAwait(false);
 
