@@ -29,9 +29,13 @@ namespace ProjectCars.Controllers
 
             User user = new User()
             {
+                FirstName = userForRegistration.FirstName,
+                LastName = userForRegistration.LastName,
+                Password = userForRegistration.Password,
+                ConfirmPassword = userForRegistration.ConfirmPassword,
+                Email = userForRegistration.Email,
                 UserName = userForRegistration.Email
             };
-
 
             var result = await _userManager.CreateAsync(user, userForRegistration.Password);
 
