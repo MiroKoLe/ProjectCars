@@ -18,7 +18,7 @@ namespace ProjectCars.Controllers
     [Route("api/auth")]
     public class AuthController : Controller
     {
-        
+
         private readonly UserManager<User> _userManager;
 
         public AuthController(UserManager<User> userManager)
@@ -30,8 +30,9 @@ namespace ProjectCars.Controllers
         public async Task<IActionResult> Login([FromBody] User user)
         {
             var existingUser = await _userManager.FindByNameAsync(user.UserName).ConfigureAwait(false);
+            var existingPwd = await _userManager.CheckPasswordAsync(user, user.Password).ConfigureAwait(false);
 
-            if (existingUser != null)
+            if (existingUser != null && existingPwd != false)
             {
                 var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"));
                 var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
