@@ -30,7 +30,7 @@ namespace ProjectCars.Controllers
         public async Task<IActionResult> Login([FromBody] User user)
         {
             var existingUser = await _userManager.FindByNameAsync(user.UserName).ConfigureAwait(false);
-            var existingPwd = await _userManager.CheckPasswordAsync(user, user.Password).ConfigureAwait(false);
+            var existingPwd = await _userManager.CheckPasswordAsync(existingUser, user.Password).ConfigureAwait(false);
 
             if (existingUser != null && existingPwd != false)
             {
